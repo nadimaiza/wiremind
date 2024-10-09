@@ -1,8 +1,25 @@
 # wiremind
 This project explores key features in air cargo shipments to predict the price per kilogram. We conducted an in-depth analysis to identify influential factors, trained a regression model, and evaluated its performance, aiming to enhance future understanding and optimize pricing predictions.
 
+## Local Setup
+
+### Installation
+To follow this project, please install the following locally:
+
+- **Python 3.8+**
+
+### Python Packages
+Install the required Python packages using pip:
+
+'''bash
+pip install pandas numpy scikit-learn seaborn matplotlib
 
 # Revenue Prediction Project
+
+#File overview:
+requirement
+wiremind 
+dataset.cvs - the dataset you will need to download to be able to run the code
 
 ## Table of Contents
 1. [Exploratory Data Analysis (EDA)](#eda)
