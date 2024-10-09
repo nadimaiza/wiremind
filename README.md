@@ -9,7 +9,7 @@ To follow this project, please install the following locally:
 
 - **Python**: Version 3.8+
 - **Python Packages**:
-- python
+```
 -import matplotlib.pyplot as plt
 -import seaborn as sns
 -import numpy as np
@@ -23,7 +23,7 @@ To follow this project, please install the following locally:
 -from xgboost import XGBRegressor
 -from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-
+```
 ### Requirements
 1. Install the required packages using pip:
    ```bash
