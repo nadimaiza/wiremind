@@ -1,4 +1,5 @@
-# wiremind
+# Wiremind
+
 This project explores key features in air cargo shipments to predict the price per kilogram. We conducted an in-depth analysis to identify influential factors, trained a regression model, and evaluated its performance, aiming to enhance future understanding and optimize pricing predictions.
 
 ## Local Setup
@@ -6,20 +7,36 @@ This project explores key features in air cargo shipments to predict the price p
 ### Installation
 To follow this project, please install the following locally:
 
-- **Python 3.8+**
+- **Python**: Version 3.8+
+- **Python Packages**:
+- python
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
+from time import time
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from xgboost import XGBRegressor
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-### Python Packages
-Install the required Python packages using pip:
 
-'''bash
-pip install pandas numpy scikit-learn seaborn matplotlib
+### Requirements
+1. Install the required packages using pip:
+   ```bash
+   pip install pandas numpy scikit-learn seaborn matplotlib xgboost 
+
+
+#Files overview:
+
+dataset.cvs - the dataset you will need to download to be able to run the code
+wiremind officiel-Copy1.ipynb - actual jupyther notebook with the full code
+
 
 # Revenue Prediction Project
-
-#File overview:
-requirement
-wiremind 
-dataset.cvs - the dataset you will need to download to be able to run the code
 
 ## Table of Contents
 1. [Exploratory Data Analysis (EDA)](#eda)
@@ -75,10 +92,8 @@ This section outlines our approach to model evaluation using cross-validation te
 ## Results Interpretation
 We analyze the results obtained from our models, discussing their implications and potential areas for improvement.
 
-## Requirements
-To run this project, you need the following Python libraries:
 
-```bash
-pip install matplotlib seaborn numpy pandas scikit-learn
+
+
 
 
