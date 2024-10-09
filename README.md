@@ -10,18 +10,18 @@ To follow this project, please install the following locally:
 - **Python**: Version 3.8+
 - **Python Packages**:
 - python
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
-from time import time
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from xgboost import XGBRegressor
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+-import matplotlib.pyplot as plt
+-import seaborn as sns
+-import numpy as np
+-import pandas as pd
+-from sklearn.preprocessing import LabelEncoder
+-from sklearn.model_selection import train_test_split
+-from sklearn.model_selection import KFold
+-from sklearn.model_selection import cross_val_score
+-from time import time
+-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+-from xgboost import XGBRegressor
+-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 
 ### Requirements
