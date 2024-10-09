@@ -35,6 +35,8 @@ To follow this project, please install the following locally:
 dataset.cvs - the dataset you will need to download to be able to run the code
 
 wiremind officiel-Copy1.ipynb - actual jupyther notebook with the full code
+
+results wiremind.pdf - results of our models and quick explanation of the results given
 ```
 
 # Revenue Prediction Project
